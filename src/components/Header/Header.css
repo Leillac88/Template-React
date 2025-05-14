@@ -1,0 +1,65 @@
+.header {
+  background-color: #1a202c; /* Cor de fundo mais escura */
+  color: #f7fafc; /* Texto quase branco para bom contraste */
+  display: flex;
+  justify-content: space-between; /* Espaço entre logo e navegação */
+  align-items: center; /* Alinha verticalmente os itens */
+  padding: 1.25rem 2rem; /* Padding vertical e horizontal (aumentado um pouco) */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sutil sombra para profundidade */
+  position: sticky; /* Fixa o header no topo */
+  top: 0;
+  z-index: 10; /* Garante que o header esteja acima de outros elementos */
+}
+
+.logo h1 {
+  font-size: 1.5rem; /* Tamanho da fonte do logo */
+  font-weight: bold; /* Texto em negrito */
+  margin: 0; /* Remove a margem padrão do h1 */
+}
+
+.nav ul {
+  list-style: none; /* Remove os marcadores de lista */
+  display: flex; /* Navegação em linha */
+  margin: 0; /* Remove a margem padrão da ul */
+  padding: 0; /* Remove o padding padrão da ul */
+  justify-content: center;
+  align-items: center;
+}
+
+.nav ul li {
+  margin-left: 1.5rem; /* Espaço entre os itens da navegação (aumentado) */
+    justify-content: center;
+  align-items: center;
+   display: flex;
+}
+
+.nav ul li a {
+  color: #cbd5e0; /* Cor do texto dos links (mais claro que o branco) */
+  text-decoration: none; /* Remove o sublinhado padrão */
+  font-size: 1rem; /* Tamanho da fonte dos links */
+  transition: color 0.3s ease; /* Transição suave para a cor do texto */
+    justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.nav ul li a:hover {
+  color: #f56565; /* Cor do texto ao passar o mouse (vermelho mais suave) */
+}
+
+/* Estilos para telas menores (opcional, para responsividade) */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column; /* Coloca logo e navegação em colunas */
+    text-align: center; /* Centraliza o texto */
+  }
+  .nav ul {
+    flex-direction: column; /* Navegação em coluna em telas pequenas */
+    align-items: center; /* Centraliza os itens da navegação */
+  }
+  .nav ul li {
+    margin-left: 0; /* Remove a margem esquerda em telas pequenas */
+    margin-top: 1rem; /* Adiciona margem superior entre os itens */
+  }
+}
+
