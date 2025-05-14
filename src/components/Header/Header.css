@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
 .header {
   background-color: #1a202c; /* Cor de fundo mais escura */
   color: #f7fafc; /* Texto quase branco para bom contraste */
@@ -12,7 +14,10 @@
 }
 
 .logo h1 {
-  font-size: 1.5rem; /* Tamanho da fonte do logo */
+    font-family: "Black Ops One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem; /* Tamanho da fonte do logo */
   font-weight: bold; /* Texto em negrito */
   margin: 0; /* Remove a margem padrão do h1 */
 }
