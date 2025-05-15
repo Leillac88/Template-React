@@ -25,7 +25,7 @@ export default function Footer() {
             <a href="https://x.com/reactjs" className="social-link" target="_blank">
               <img src={xLogo} alt="x-logo" />
             </a>
-            <a href="https://react.dev/" className="social-link" target="_blank">
+            <a href="https://www.instagram.com/reactjsceara/" className="social-link" target="_blank">
               <img src={instagramLogo} alt="Instagram" />
             </a>
           </div>
