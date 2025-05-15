@@ -1,12 +1,5 @@
-# React + Vite
+# 🧩 Template React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um template moderno e personalizável para iniciar projetos com React, ideal para desenvolvedores que buscam agilidade e organização desde o início.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Este projeto serve como um ponto de partida para aplicações React, oferecendo uma estrutura organizada e pronta para desenvolvimento. Inclui configurações básicas e boas práticas para facilitar o desenvolvimento e a manutenção.
