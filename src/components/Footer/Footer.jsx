@@ -17,13 +17,13 @@ export default function Footer() {
           <h3>Follow Us</h3>
           <div className="social-links">
             <a href="https://www.facebook.com/react" className="social-link" target="_blank">
-              <img src="/assets/facebook-logo.svg" alt="Facebook" />
+              <img src="public/facebook-logo.png" alt="Facebook" />
             </a>
             <a href="https://x.com/reactjs" className="social-link" target="_blank">
-              <img src="/assets/x-logo.svg" alt="x-logo" />
+              <img src="public/x-logo.png" alt="x-logo" />
             </a>
             <a href="https://react.dev/" className="social-link" target="_blank">
-              <img src="/assets/instagram-logo.svg" alt="Instagram" />
+              <img src="public/instagram-logo.png" alt="Instagram" />
             </a>
           </div>
         </div>
