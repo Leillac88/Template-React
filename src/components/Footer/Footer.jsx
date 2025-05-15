@@ -1,4 +1,7 @@
 import "./Footer.css"
+import facebookLogo from '../../assets/facebook-logo.png';
+import instagramLogo from '../../assets/instagram-logo.png';
+import xLogo from '../../assets/x-logo.png';
 
 export default function Footer() {
   return (
@@ -17,13 +20,13 @@ export default function Footer() {
           <h3>Follow Us</h3>
           <div className="social-links">
             <a href="https://www.facebook.com/react" className="social-link" target="_blank">
-              <img src="public/facebook-logo.png" alt="Facebook" />
+              <img src={facebookLogo} alt="Facebook" />
             </a>
             <a href="https://x.com/reactjs" className="social-link" target="_blank">
-              <img src="public/x-logo.png" alt="x-logo" />
+              <img src={xLogo} alt="x-logo" />
             </a>
             <a href="https://react.dev/" className="social-link" target="_blank">
-              <img src="public/instagram-logo.png" alt="Instagram" />
+              <img src={instagramLogo} alt="Instagram" />
             </a>
           </div>
         </div>
