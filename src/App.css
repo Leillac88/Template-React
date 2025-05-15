@@ -18,21 +18,3 @@ body {
   margin: auto;
   padding: 20px;
 }
-
-h2 {
-  color: #ba68c8;
-}
-
-button {
-  background-color: #9c27b0;
-  border: none;
-  color: #fff;
-  padding: 10px 20px;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: background 0.3s ease;
-}
-
-button:hover {
-  background-color: #e91e63;
-}

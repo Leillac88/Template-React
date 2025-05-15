@@ -28,16 +28,17 @@
 }
 
 .cta-button {
-  background-color: #0A2463;
+  background-color: #121212;
   color: #E0E0E0;
   font-size: 1em;
   padding: 15px 30px;
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
   cursor: pointer;
   transition: background-color 0.3s ease;
   position: relative;
   overflow: hidden;
+  transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94), box-shadow 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
 .cta-button:before {
@@ -53,7 +54,8 @@
 }
 
 .cta-button:hover {
-  background-color: #003B46;
+  background-color: #1A1A1A;
+  transform: translateY(-8px);
 }
 
 .cta-button:hover:before {
