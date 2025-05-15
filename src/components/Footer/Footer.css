@@ -26,6 +26,8 @@
 .footer-section p {
   font-size: 0.9em;
   line-height: 1.6;
+  max-width: 300px;
+  margin: 0 auto;
 }
 
 .social-links {

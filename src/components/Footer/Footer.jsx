@@ -17,13 +17,13 @@ export default function Footer() {
           <h3>Follow Us</h3>
           <div className="social-links">
             <a href="#" className="social-link">
-              <img src="../../assets/facebook-logo.svg" alt="Facebook" />
+              <img src="src/assets/facebook-logo.svg" alt="Facebook" />
             </a>
             <a href="#" className="social-link">
-              <img src="../../assets/x-logo.svg" alt="x-logo" />
+              <img src="src/assets/x-logo.svg" alt="x-logo" />
             </a>
             <a href="#" className="social-link">
-              <img src="../../assets/instagram-logo.svg" alt="Instagram" />
+              <img src="src/assets/instagram-logo.svg" alt="Instagram" />
             </a>
           </div>
         </div>
