@@ -12,7 +12,7 @@ export default function Footer() {
           <p>Simple React application with separate component files and CSS styling.</p>
         </div>
         <div className="footer-section">
-          <h3>Contact</h3>
+          <h3>Contact Us</h3>
           <p>Email: info@example.com</p>
           <p>Phone: (123) 456-7890</p>
         </div>
