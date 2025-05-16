@@ -20,20 +20,20 @@
   color: #8AB4F8;
 }
 
-.nav {
+/* .nav {
   flex-grow: 1;
   display: flex;
   justify-content: center;
   margin-right: 12rem;
   font-size: 1.3rem;
-}
+} */
 
 .nav ul {
   list-style: none;
   padding: 0;
   margin: 0;
   display: flex;
-  gap: 60px;
+  gap: 30px;
 }
 
 .nav a {
