@@ -20,13 +20,12 @@
   color: #8AB4F8;
 }
 
-/* .nav {
-  flex-grow: 1;
+.nav {
+  /* flex-grow: 1; */
   display: flex;
   justify-content: center;
-  margin-right: 12rem;
   font-size: 1.3rem;
-} */
+}
 
 .nav ul {
   list-style: none;
